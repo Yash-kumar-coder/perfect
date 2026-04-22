@@ -611,7 +611,7 @@ export default function App() {
         </div>
 
         {/* Right Panel: Live Preview */}
-        <div className="w-1/2 bg-[#ffffff] overflow-y-auto p-4 flex items-start justify-center custom-scrollbar">
+        <div className="w-1/2 bg-[#FFFFFF] overflow-y-auto p-4 flex items-start justify-center custom-scrollbar">
           <PreviewHTML />
         </div>
       </div>
