@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,10 +12,11 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@sparticuz/chromium": "^147.0.2",
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "handlebars": "^4.7.9",
     "mongoose": "^9.5.0",
-    "puppeteer": "^24.42.0"
+    "puppeteer-core": "^24.42.0"
   }
 }
